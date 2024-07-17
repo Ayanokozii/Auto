@@ -9,7 +9,7 @@ class Config(object):
     # pyro client config
     API_ID = os.environ.get("API_ID", "27872628")  # ⚠️ Required
     API_HASH = os.environ.get("API_HASH", "7827da20241e75908c85deb5b44e7bea")  # ⚠️ Required
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7394553965:AAHQlOvCiDCL33kKZAdPhkfy1T958QceOvo")  # ⚠️ Required
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7044609105:AAEbL7gi84MMfESHFnsoSBsHVVyHNB1IQCo")  # ⚠️ Required
 
     # database config
     DB_URL = os.environ.get("DB_URL", "mongodb+srv://s2lk:s2lk@cluster0.h2h9ia6.mongodb.net/?retryWrites=true&w=majority")  # ⚠️ Required
@@ -18,7 +18,7 @@ class Config(object):
     # other configs
     BOT_UPTIME = time.time()
     START_PIC = os.environ.get("START_PIC", "https://telegra.ph/file/0ceb5f176f3cf877a08b5.jpg")
-    ADMIN = int(os.environ.get('ADMIN', '7176027733'))  # ⚠️ Required
+    ADMIN = int(os.environ.get('ADMIN', '7181106700'))  # ⚠️ Required
     DEFAULT_WELCOME_MSG = os.environ.get("WELCOME_MSG", "Hey {user},\nYour Request Approved ✅,\n\nWelcome to **{title}**")
     DEFAULT_LEAVE_MSG = os.environ.get("LEAVE_MSG", "By {user},\nSee You Again 👋\n\nFrom **{title}**")
 
