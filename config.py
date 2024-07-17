@@ -9,7 +9,7 @@ class Config(object):
     # pyro client config
     API_ID = os.environ.get("API_ID", "27872628")  # ⚠️ Required
     API_HASH = os.environ.get("API_HASH", "7827da20241e75908c85deb5b44e7bea")  # ⚠️ Required
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7044609105:AAEbL7gi84MMfESHFnsoSBsHVVyHNB1IQCo")  # ⚠️ Required
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7044609105:AAH61ir9979Wub2HOniXtgnIgaHgvaVxTA4")  # ⚠️ Required
 
     # database config
     DB_URL = os.environ.get("DB_URL", "mongodb+srv://s2lk:s2lk@cluster0.h2h9ia6.mongodb.net/?retryWrites=true&w=majority")  # ⚠️ Required
