@@ -27,7 +27,7 @@ class Config(object):
 
     # wes response configuration
     WEBHOOK = bool(os.environ.get("WEBHOOK", True))
-    PORT = int(os.environ.get("PORT", "4040"))
+    PORT = int(os.environ.get("PORT", "2020"))
 
 
 class TxT(object):
