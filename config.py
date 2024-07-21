@@ -13,7 +13,7 @@ class Config(object):
 
     # database config
     DB_URL = os.environ.get("DB_URL", None)  # ⚠️ Required
-    DB_NAME = os.environ.get("DB_NAME", "")
+    DB_NAME = os.environ.get("DB_NAME", "Log Group")
 
     # other configs
     BOT_UPTIME = time.time()
